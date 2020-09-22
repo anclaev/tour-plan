@@ -1,5 +1,3 @@
 # tour-plan
 
-Glo Academy, Web Start, Tour-plan.
-
-Suite of Tour-company.
+Учебный проект для практики на курсе Веб Старт от Glo Academy. Автор курса — Артем Исламов.
