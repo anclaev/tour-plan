@@ -416,6 +416,10 @@ template {
   line-height: 18px;
 }
 
+.navbar-menu__item--mobile--visible {
+  display: none !important;
+}
+
 .navbar .logo {
   width: 177px;
 }
@@ -1438,8 +1442,56 @@ template {
     max-width: 576px;
     width: 92%;
   }
-  .navbar__search, .navbar-menu, .navbar__user {
+  body {
+    padding-top: 78px;
+  }
+  .navbar--fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .navbar__user--mobile--hidden, .navbar__search--mobile--hidden {
     display: none !important;
+  }
+  .navbar__user--mobile--visible, .navbar__search--mobile--visible {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .navbar__user {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar-bottom {
+    display: none !important;
+  }
+  .navbar-bottom--visible {
+    display: block !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 78px;
+    padding-top: 30px;
+  }
+  .navbar-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar-menu__item {
+    margin-bottom: 20px;
+  }
+  .navbar-menu__item--mobile--visible {
+    display: block !important;
   }
   .menu-button {
     display: -webkit-box;
@@ -1466,6 +1518,11 @@ template {
     width: 16px;
     height: 1px;
     background-color: #333333;
+  }
+  .user__name--light {
+    color: #fff !important;
+    margin-left: 0 !important;
+    margin-top: 10px !important;
   }
   .stars {
     -ms-flex-preferred-size: auto !important;

@@ -1,3 +1,5 @@
+var menuButton = document.querySelector(".menu-button");
+
 var hotelSlider = new Swiper(".hotel-slider", {
   // Optional parameters
   loop: true,
@@ -20,4 +22,11 @@ var reviewsSlider = new Swiper(".reviews-slider", {
     nextEl: ".reviews-slider__button--next",
     prevEl: ".reviews-slider__button--prev",
   },
+});
+
+menuButton.addEventListener("click", function () {
+  console.log("Работает!");
+  document
+    .querySelector(".navbar-bottom")
+    .classList.toggle("navbar-bottom--visible");
 });
