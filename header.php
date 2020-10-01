@@ -14,7 +14,7 @@
     <header class="navbar navbar--fixed">
         <div class="container">
             <div class="navbar-top">
-                <a href="#" class="logo">
+                <a href="index.php" class="logo">
                     <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__img" />
                 </a>
 
