@@ -20,7 +20,7 @@
                 </p>
             </div>
             <!-- /.hotel-info__left -->
-            <div class="rating hotel-info__rating">
+            <div data-toggle="modal" data-href="#rating-modal" class="rating hotel-info__rating">
                 <span class="rating__text">User Rattings</span>
                 <span class="rating__counter">4.5/5</span>
             </div>
@@ -81,7 +81,7 @@
                         </a>
                     </div>
                     <!-- /.booking__call-center -->
-                    <button class="button booking__button">View Other Options</button>
+                    <button data-toggle="modal" data-href="#booking-modal" class="button booking__button">View Other Options</button>
                 </div>
                 <!-- /.booking -->
                 <div class="map">
