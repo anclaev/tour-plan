@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
