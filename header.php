@@ -7,6 +7,7 @@
     <title>Best Tour Plan — Hotel Booking</title>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon">
 </head>
@@ -15,18 +16,18 @@
     <header class="navbar navbar--fixed">
         <div class="container">
             <div class="navbar-top">
-                <a href="index.php" class="logo">
+                <a href="index.php" class="logo" data-aos="fade-right" data-aos-delay="100">
                     <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__img" />
                 </a>
 
-                <form action="#" class="search navbar__search navbar__search--mobile--hidden">
+                <form action="#" class="search navbar__search navbar__search--mobile--hidden" data-aos="fade-right" data-aos-delay="200">
                     <input type="text" class="search__input" placeholder="Search Location" />
                     <button class="search__button">
                         <img src="img/search.svg" alt="Icon: Search" />
                     </button>
                 </form>
 
-                <a href="#" class="user navbar__user navbar__user--mobile--hidden">
+                <a href="#" class="user navbar__user navbar__user--mobile--hidden" data-aos="fade-right" data-aos-delay="300">
                     <img src="img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar" />
 
                     <span class="user__name">Nathan</span>
